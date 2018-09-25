@@ -1,0 +1,70 @@
+html{
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+body{
+  background-color: #7f7878;
+  color: white;
+
+  background-image: url(../img/newboard22.jpg);
+  padding:75px;
+  padding-bottom: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+button {
+  background-color: black;
+  border-radius: 6px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-transform: uppercase;
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 10px;  
+  cursor: pointer;
+}
+#placeholder {
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+  margin: 35px auto;
+/*  border: 1px solid black;
+  border-radius: 10px; */ 
+  font-size:80px;
+}
+#placeholder2{
+  background-color: black;
+   height: 55px;
+  width: 175px;
+  padding: 50px;
+  padding-top: 10px;
+  margin: 50px auto;
+  border: 1px solid white;
+  border-radius: 10px;  
+  font-size:40px;
+
+
+}
+.insert{
+    background-color: black;
+   width: 180px;
+   height: 85px;
+   margin: 50px auto;
+   border: 1px solid white;
+   border-radius: 10px;  
+   font-size:20px;
+}
+
+@media screen and (max-width: 50em) {
+   body{
+    background-image: url(../img/monopolysmall.jpg);
+    padding: 10px;
+}
+}
